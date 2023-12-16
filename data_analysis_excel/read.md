@@ -108,7 +108,7 @@ A challenge presented by the (Masar) platform ,(Masar) is a  volunteer initiativ
 
 - Average of grades =AVERAGE(F:F)
 - Students who succeeded COUNTIF(F:F,">70")
-- Students who failed COUNTIF(F:F,"<70")
+- Students who failed COUNTIF(F:F,"<70").
 - Pivot table
   - Student gender for each university
   - Average grade for each university
