@@ -6,6 +6,8 @@ A challenge presented by the (Masar) platform ti ......
 # data analysis process: اتآكد من الخطوات اكثر
 
 formulas اكتب كل الفنكشن اللي كتبتها
+
+
 1- cleanning
 - Check whether there are nulls values
 - dublicates
