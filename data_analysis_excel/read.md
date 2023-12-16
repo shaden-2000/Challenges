@@ -20,5 +20,19 @@ formulas اكتب كل الفنكشن اللي كتبتها
   - VLOOKUP
   - CONDITIONAL FORMATTING
   - KEY TABLE
+-All grades less than 100
+ 
+2- Analysis 
+
+- success or fail (if )=IF(F2<70,"راسب", "ناجح")
+- VLOOKUP to give the grade by search by id because we may have million record or row
+  - table + Vlookup =VLOOKUP(J10,A1:G200,6,FALSE)
+- Average of grades =AVERAGE(F:F)
+- Students who succeeded COUNTIF(F:F,">70")
+- Students who failed COUNTIF(F:F,"<70")
+- Pivot table
+  - Student gender for each university
+  - Average grade for each university
+  - Average grade for each gender at each university
     
   
