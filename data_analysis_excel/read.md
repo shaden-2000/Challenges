@@ -19,8 +19,11 @@ A challenge presented by the (Masar) platform ,(Masar) is a  volunteer initiativ
 ## data analysis process:
 
 
+
 ### 1- data cleaning
-- Check whether there are nulls values
+
+
+# - Check whether there are nulls values
 
  - select all cells
 <img width="1512" alt="Screenshot 1445-06-03 at 2 34 00 AM" src="https://github.com/shaden-2000/Challenges/assets/100734021/7d2bbd48-08db-45fa-a4e5-0db585b3e8a1">
@@ -47,7 +50,10 @@ A challenge presented by the (Masar) platform ,(Masar) is a  volunteer initiativ
 
 
 
-- Check whether there are dublicates values
+
+
+
+# - Check whether there are dublicates values
 
  - select all cells
   <img width="1512" alt="Screenshot 1445-06-03 at 2 34 00 AM" src="https://github.com/shaden-2000/Challenges/assets/100734021/e36e6726-2197-4146-98f5-60a5dfba3a96">
@@ -61,7 +67,10 @@ A challenge presented by the (Masar) platform ,(Masar) is a  volunteer initiativ
 <img width="1512" alt="Screenshot 1445-06-03 at 2 56 45 AM" src="https://github.com/shaden-2000/Challenges/assets/100734021/3a8e35cf-ac2b-4c0e-a7e3-d07230eee6a9">
 
 
-- check if all IDs are 4 digits 
+
+
+
+# - check if all IDs are 4 digits 
 
  - using LEN() function
  <img width="1512" alt="Screenshot 1445-06-03 at 4 34 21 AM" src="https://github.com/shaden-2000/Challenges/assets/100734021/20bcc8f9-4baf-4362-bff5-978c3b45bc98">
@@ -74,9 +83,12 @@ A challenge presented by the (Masar) platform ,(Masar) is a  volunteer initiativ
  
 <img width="1512" alt="Screenshot 1445-06-03 at 4 34 51 AM" src="https://github.com/shaden-2000/Challenges/assets/100734021/2d70a318-1424-4d37-b2c4-573022808516">
 
+
+
+
  
 
-- Ensure that each university corresponds to its region
+# - Ensure that each university corresponds to its region
  - first i made i key table so i can use it with IF() and VLOOKUP() function
  - the key table comtains the university and region Columns
  - i used VLOOKUP() function to return the university name , and i used the IF() function to determine if the university corresponds to its  region , if yes then the formula returns TRUE else returns FALSE , the formula:
@@ -86,16 +98,23 @@ A challenge presented by the (Masar) platform ,(Masar) is a  volunteer initiativ
   <img width="1512" alt="Screenshot 1445-06-03 at 5 41 57 AM" src="https://github.com/shaden-2000/Challenges/assets/100734021/29ce3800-c233-4b0e-bfff-88b7ca5e0ded">
 
 
-- Ensure that all grades less than 100 by using CONDITIONAL FORMATTING
+
+
+
+
+# - Ensure that all grades less than 100 by using CONDITIONAL FORMATTING
 <img width="1512" alt="Screenshot 1445-06-03 at 11 34 19 AM" src="https://github.com/shaden-2000/Challenges/assets/100734021/93ca59ad-c584-40bd-8b92-4f6e7fe9cd36">
 
 
 
- 2- Analysis and visualiz data
+
+ ### 2- Analysis and visualiz data
 
 - Identify students who passed and students who failed success or fail by using IF() function
   - =IF(F2<70,"راسب", "ناجح")
  <img width="1512" alt="Screenshot 1445-06-03 at 11 37 43 AM" src="https://github.com/shaden-2000/Challenges/assets/100734021/9c8bd774-ce1e-4c18-9826-bbd827a82355">
+
+
 
   
 - VLOOKUP to give the grade by search by id because we may have million record or row
