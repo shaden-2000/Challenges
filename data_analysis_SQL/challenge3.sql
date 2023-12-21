@@ -1,4 +1,4 @@
--- Find how many departments , and what are they ? use employee table 
+-- Find how many departments , and what are they ? 
 SELECT COUNT( DISTINCT Department ) AS how_many_departments
 FROM `challenge-3-408606.dataset.employees`;
 
