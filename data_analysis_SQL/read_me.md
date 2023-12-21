@@ -11,7 +11,7 @@ A challenge presented by the (Masar) platform ,(Masar) is a  volunteer initiativ
 
  
 
-## The most important SQL functions and clause i used 
+## The most important SQL functions and clauses i used 
 - CASE
 - COUNT()
 - DISTINCT
